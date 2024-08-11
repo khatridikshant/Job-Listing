@@ -1,4 +1,10 @@
 import { useState } from 'react'
+import NavBar from './Components/Navbar/NavBar'
+import Search from './Components/SearchDiv/Search'
+import Job from './Components/JobDiv/Job'
+import Value from './Components/ValueDiv/Value'
+import Footer from './Components/FooterDiv/footer'
+
 
 
 function App() {
@@ -6,7 +12,11 @@ function App() {
 
   return (
     <>
-      <div>React</div>
+     <NavBar/>
+     <Search/>
+     <Job/>
+     <Value/>
+     <Footer/>
     </>
   )
 }
