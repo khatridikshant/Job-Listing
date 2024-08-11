@@ -5,7 +5,13 @@
 
 :root{
     font-family: 'Poppins', sans-serif;
+    padding: 40px;
 }
+
+.icon{
+    cursor: pointer;
+
+} 
 
 /* body{
     background-color: white;
@@ -28,10 +34,7 @@ li:hover::before{
 
 }
 
-.icon{
-    cursor: pointer;
 
-}
 
 .card{
 
