@@ -92,105 +92,14 @@ const Data = [
     'desc': 'Salesforce is seeking a CRM Specialist to manage customer relationship management systems. You will be responsible for implementing CRM strategies, optimizing workflows, and ensuring the effective use of CRM tools to enhance customer interactions.',
     'company': 'Salesforce.com Inc.',
     'jobtitle': 'CRM Specialist'
-  },
-  {
-    'id': 11,
-    'image': 'https://placehold.co/55x55?font=roboto&text=adobe',
-    'time': '1 month ago',
-    'location': 'Netherlands',
-    'desc': 'Adobe is looking for a Marketing Manager to develop and execute marketing strategies. The role involves creating campaigns, analyzing market trends, and working with cross-functional teams to enhance brand presence and drive sales.',
-    'company': 'Adobe Inc.',
-    'jobtitle': 'Marketing Manager'
-  },
-  {
-    'id': 12,
-    'image': 'https://placehold.co/55x55?font=roboto&text=nvidia',
-    'time': '2 weeks ago',
-    'location': 'South Korea',
-    'desc': 'NVIDIA is seeking a Hardware Engineer to design and test advanced hardware components. You will be responsible for developing new technologies, improving existing designs, and ensuring the reliability of hardware products.',
-    'company': 'NVIDIA Corporation',
-    'jobtitle': 'Hardware Engineer'
-  },
-  {
-    'id': 13,
-    'image': 'https://placehold.co/55x55?font=roboto&text=tesla',
-    'time': '5 months ago',
-    'location': 'USA',
-    'desc': 'Tesla is seeking a Mechanical Engineer to design and develop advanced automotive components. The role involves working on cutting-edge technologies, improving product designs, and ensuring high performance and reliability.',
-    'company': 'Tesla Inc.',
-    'jobtitle': 'Mechanical Engineer'
-  },
-  {
-    'id': 14,
-    'image': 'https://placehold.co/55x55?font=roboto&text=intel',
-    'time': '6 weeks ago',
-    'location': 'Taiwan',
-    'desc': 'Intel is hiring an Embedded Systems Engineer to work on cutting-edge embedded technology. You will be involved in designing, developing, and testing embedded systems for a range of applications and ensuring system performance.',
-    'company': 'Intel Corporation',
-    'jobtitle': 'Embedded Systems Engineer'
-  },
-  {
-    'id': 15,
-    'image': 'https://placehold.co/55x55?font=roboto&text=shopify',
-    'time': '2 months ago',
-    'location': 'Canada',
-    'desc': 'Shopify is looking for a Product Designer to craft exceptional user experiences for our e-commerce platform. You will collaborate with product managers and engineers to design intuitive interfaces and solve complex user problems.',
-    'company': 'Shopify Inc.',
-    'jobtitle': 'Product Designer'
-  },
-  {
-    'id': 16,
-    'image': 'https://placehold.co/55x55?font=roboto&text=uber',
-    'time': '4 months ago',
-    'location': 'Singapore',
-    'desc': 'Uber is looking for a Logistics Coordinator to manage and optimize transportation and delivery operations. You will work on improving operational efficiency, coordinating logistics activities, and ensuring timely delivery of services.',
-    'company': 'Uber Technologies Inc.',
-    'jobtitle': 'Logistics Coordinator'
-  },
-  {
-    'id': 17,
-    'image': 'https://placehold.co/55x55?font=roboto&text=adobe',
-    'time': '1 month ago',
-    'location': 'Netherlands',
-    'desc': 'Adobe is looking for a Marketing Manager to develop and execute marketing strategies. The role involves creating campaigns, analyzing market trends, and working with cross-functional teams to enhance brand presence and drive sales.',
-    'company': 'Adobe Inc.',
-    'jobtitle': 'Marketing Manager'
-  },
-  {
-    'id': 18,
-    'image': 'https://placehold.co/55x55?font=roboto&text=ibm',
-    'time': '6 months ago',
-    'location': 'Italy',
-    'desc': 'IBM is hiring a Cybersecurity Analyst to protect our systems and data from cyber threats. You will be responsible for monitoring security incidents, analyzing threats, and implementing measures to safeguard our digital assets.',
-    'company': 'IBM Corporation',
-    'jobtitle': 'Cybersecurity Analyst'
-  },
-  {
-    'id': 19,
-    'image': 'https://placehold.co/55x55?font=roboto&text=tesla',
-    'time': '5 months ago',
-    'location': 'USA',
-    'desc': 'Tesla is seeking a Mechanical Engineer to design and develop advanced automotive components. The role involves working on cutting-edge technologies, improving product designs, and ensuring high performance and reliability.',
-    'company': 'Tesla Inc.',
-    'jobtitle': 'Mechanical Engineer'
-  },
-  {
-    'id': 20,
-    'image': 'https://placehold.co/55x55?font=roboto&text=ibm',
-    'time': '6 months ago',
-    'location': 'Italy',
-    'desc': 'IBM is hiring a Cybersecurity Analyst to protect our systems and data from cyber threats. You will be responsible for monitoring security incidents, analyzing threats, and implementing measures to safeguard our digital assets.',
-    'company': 'IBM Corporation',
-    'jobtitle': 'Cybersecurity Analyst'
   }
 ];
-
 
 
 const Job = () => {
 
   return (
-    <div className="flex gap-2 justify-center flex-wrap py-10 px-5">
+    <div className="flex gap-5 justify-center flex-wrap py-10 px-5">
       {
 
         Data.map((data, index) => (
